@@ -10,7 +10,7 @@ const Navbar = ({ isScrolling }) => {
   return (
     <nav
       className={`navbar navbar-dark navbar-expand-md nav-- ${
-        isScrolling > 30 ? "scrolling" : null
+        isScrolling > 35 ? "scrolling" : null
       }`}
     >
       <div className="container">
