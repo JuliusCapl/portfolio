@@ -1,0 +1,25 @@
+.footer-- {
+    min-width: 100vw;
+    height: 95vh;
+    color: #ffffff;
+    background-color: #560027;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+.footer-- a {
+    color: #ffffff;
+    margin-right: 1.4rem;
+}
+.footer-- i {
+    font-size: 3rem;
+    margin: 0 5px 0 5px;
+}
+.container-- {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

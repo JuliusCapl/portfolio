@@ -1,0 +1,8 @@
+.contact-- {
+    height: 95vh;
+    margin-bottom: 95vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
