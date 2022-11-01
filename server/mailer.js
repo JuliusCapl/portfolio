@@ -4,9 +4,9 @@ require('dotenv').config({path:'./.env'})
 
 module.exports.sendEmail = function sendEmail(email, message){
   return new Promise((resolve, reject) => {
-    let emailAddress = process.env.EMAIL//'correpruebanodejs@gmail.com'
-    let password = process.env.PASSWORD//'wurpafctjhrnoxcp'
-    let myEmailAddress = process.env.MYEMAIL//'julio93.cl@gmail.com'
+    let emailAddress = process.env.EMAIL
+    let password = process.env.PASSWORD
+    let myEmailAddress = process.env.MYEMAIL
 
     let transporter = nodemailer.createTransport({
       service: "gmail.com",
