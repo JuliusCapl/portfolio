@@ -1,5 +1,5 @@
 import './App.css'
-import react, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
