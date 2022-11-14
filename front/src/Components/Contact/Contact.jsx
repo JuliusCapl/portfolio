@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import axios from "axios";
 import "./Contact.css";
 
@@ -13,6 +12,7 @@ const Contact = () => {
         </div>
         <form id="formEmail" action="submit" onSubmit={e=>{
           e.preventDefault()
+          alert('Your message was sent successfully')
           let email = (e.target.email.value),
               message = (e.target.message.value)
           axios.post('http://localhost:4000/contact',{
@@ -35,7 +35,7 @@ const Contact = () => {
             <textarea name="message" id="message" className="form-control" rows="7"></textarea>
           </div>
           <button type="submit" className="btn btn-outline-secondary">
-            Sent
+            Send
           </button>
           <button type="reset" className="btn btn-outline-secondary m-3">
             Clear
